@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(41, 40, 40);
+    color: rgb(125, 255, 186);
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    text-align: left;
+    width: 350px;
+    font-size: 17px;
+    margin: auto;
+    list-style-type: square;
+}
+
+span{
+    font-weight: bolder;
+}
+
+dl{
+    text-align: left;
+    width: 350px;
+    font-size: 17px;
+    margin: auto;
+    list-style-type: square;
+}
+li{
+    padding-bottom: 5px;
+}
+img{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 0, 242);
+}
