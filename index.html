@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td,tr{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Aula 02</h1>
@@ -49,5 +54,35 @@
     Se eu te perder um dia<br>
     
 </p>
+
+<h3>Apresentação de Tabelas</h3>
+<table>
+    <th>coluna1</th>
+    <th>coluna2</th>
+    <th>coluna3</th>
+    <tr>
+        <td>Info Linha1 Col1</td>
+        <td>Info Linha1 Col2</td>
+        <td>Info Linha1 Col3</td>
+    </tr>
+    <tr>
+        <td>Info Linha2 Col1</td>
+        <td>Info Linha2 Col2</td>
+        <td>Info Linha2 Col3</td>
+    </tr>
+    <tr>
+        <td colspan="2">Info Linha3 Col1/2</td>
+        <td>Info Linha3 Col3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Info Linha4/5 Col1</td>
+        <td>Info Linha4 Col2</td>
+        <td>Info Linha4 Col3</td>
+    </tr>
+    <tr>
+        <td>Info Linha5 Col2</td>
+        <td>Info Linha5 Col3</td>
+    </tr>
+</table>
 </body>
 </html>
