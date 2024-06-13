@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        body{
+            background-color: rgb(54, 54, 54);
+            color: rgb(0, 255, 162);
+            margin: auto;
+            width: 400px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        form,textarea{
+            width: 200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro vaga de Dev
+    </h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" id="nome">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" placeholder="exemplo@email.com">
+        <br>
+        <label for="idade">Idade:</label>
+        <br>
+        <input type="number" id="idade">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <br>
+        <input type="number" id="telefone">
+        <br>
+        <label for="">Unidade:</label>
+        <br>
+        <input type="radio" name="unidade" id="fortaleza">
+        <label for="fortaleza">Fortaleza</label>
+        <br>
+        <input type="radio" name="unidade" id="recife">
+        <label for="recife">Recife</label>
+        <br>
+        <input type="radio" name="unidade" id="salvador">
+        <label for="salvador">Salvador</label>
+        <br>
+        <label for="">Horários:</label>
+        <br>
+        <input type="checkbox" name="horarios" id="manha">
+        <label for="manha">Manhã</label>
+        <br>
+        <input type="checkbox" name="horarios" id="tarde">
+        <label for="tarde">Tarde</label>
+        <br>
+        <input type="checkbox" name="horarios" id="noite">
+        <label for="noite">Noite</label>
+        <br>
+        <label for="">Selecione uma linguagem:</label>
+        <br>
+        <select name="selectLinguagem" id="selectLinguagem">
+            <option value="1">Java</option>
+            <option value="2">Python</option>
+            <option value="3">Node.Js</option>
+            <option value="4">PHP</option>
+            <option value="5">C++</option>
+        </select>
+        <br>
+        <label for="">Apresentação:</label>
+        <br>
+        <textarea name="apresentacao" id="apresentacao" cols="30" rows="10" placeholder="Digite sua apresentação"></textarea>
+
+
+
+    </form>
+</body>
+</html>
